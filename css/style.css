@@ -9,7 +9,7 @@ html, body{
    font-family: "Rokkitt", Helvetica, Arial, sans-serif;
  }*/
 
-<h1 class="animated fadeIn">Example</h1>
+
 
  h2 {
    font-size:28px;
@@ -17,10 +17,15 @@ html, body{
    margin-bottom: 5px;
  }
  p {
-   font-size:16px;
+   font-size:16.5px;
    line-height: 19px;
    font-weight: 100;
+     color: #1F2952;
  }
+header p {
+    color: #FFFFFF;
+}
+
 /* GRID */
  .container {
    margin-right: auto;
@@ -44,3 +49,104 @@ html, body{
    min-height: 1px;
    margin:0 2% 20px;
  }
+@media (min-width: 768px) {
+    .container { 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+    .one-half {
+        width: 46%;
+    }
+    .one-third {
+        width: 29.33333%;
+    }
+    .one-fourth {
+        width: 21%;
+    }
+    @media (min-width: 1200px) {
+        .container {
+            width:1170px;
+        }
+    }
+}
+.one-third {
+    padding-left: 80px;
+}
+
+/* HEADER */
+header {
+    color:#FFFFFF;
+    background:#34495E;
+    background-image: linear-gradient(-180deg, #222D58 0%, #C08056 100%);
+    box-shadow: 0 4px 27px 11px rgba(31,40,81,0.35);
+    
+}
+header nav {
+    padding:1em 0;
+}
+header nav ul {
+    display: inline;
+    text-align: right;
+    float: right;
+    margin: 0;
+}
+header nav ul > li {
+    list-style-type:none;
+    display: inline-block;
+    margin:0 15px;
+}
+ header nav ul > li.btn-outline {
+   padding:10px 15px;
+   border:1.5px solid #B0B9E3;
+   border-radius: 4px;
+}
+header nav ul > li.btn-outline:hover {
+    background:#FFFFFF;
+}
+header nav ul > li > a {
+    color:#FFFFFF;
+    text-decoration: none;
+}
+header nav ul > li.btn-outline:hover > a {
+    color:#34495E;
+}
+}
+header .hero {
+    text-align: center;
+    display:block;
+    position: relative;
+    padding-bottom: 55px;
+    
+}
+header .hero h1 {
+    font-size: 50px;
+    font-weight: normal;
+    margin:25px 0 0;
+    color: #FFFFFF;
+    align-content: center;
+    
+}
+header .hero p {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 100;
+    margin: 10px @ 40px;
+    padding-bottom: 20px;
+    align-content: center;
+    
+}
+header .hero img {
+    display: block;
+    margin: 3cm auto 0;
+}
+header .btn {
+    padding:10px 22px;
+    text-decoration: none;
+    color: #FFFFFF;
+    border-radius: 4px;
+    background: #222D58;
+    
+}
