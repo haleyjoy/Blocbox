@@ -82,6 +82,7 @@ header {
     background:#34495E;
     background-image: linear-gradient(-180deg, #222D58 0%, #C08056 100%);
     box-shadow: 0 4px 27px 11px rgba(31,40,81,0.35);
+    min-height: 470px;
     
 }
 header nav {
@@ -121,21 +122,24 @@ header .hero {
     
 }
 header .hero h1 {
+    padding-top: 50px;
+    padding-bottom: 30px;
     font-size: 50px;
-    font-weight: normal;
-    margin:25px 0 0;
     color: #FFFFFF;
-    align-content: center;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    
     
 }
 header .hero p {
     font-size: 20px;
     line-height: 26px;
     font-weight: 100;
-    margin: 10px @ 40px;
-    padding-bottom: 20px;
-    align-content: center;
-    
+    padding-bottom: 45px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
 header .hero img {
     display: block;
@@ -147,6 +151,8 @@ header .btn {
     color: #FFFFFF;
     border-radius: 4px;
     background: #222D58;   
+    width: 50%;
+    margin: 0 auto;
 }
 
 /* BENEFITS */
