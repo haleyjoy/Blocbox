@@ -49,6 +49,13 @@ header p {
    min-height: 1px;
    margin:0 2% 20px;
  }
+.one-third-pricing {
+   width:29.3%;
+   float:left;
+   position:relative;
+   min-height: 1px;
+   margin:0 2% 7px;
+}
 @media (min-width: 768px) {
     .container { 750px;
     }
@@ -74,6 +81,12 @@ header p {
 }
 .one-third {
     padding-left: 80px;
+}
+.one-half img {
+    width: 100%;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right:25px;
 }
 
 /* HEADER */
@@ -163,21 +176,23 @@ header .btn {
  }
  .benefits ul {
    margin: 0 auto;
-   padding:4em 0;
+   padding: 1em;
  }
 .benefits p {
-    padding-left: 50px;
-    text-align: left;
+
     color:#1F2952;
     
 }
  .benefits ul li {
    list-style-type: none;
+    text-align: left;
    display: inline-block;
+     width:30%;
+     
  }
  .benefits i {
    color:#EFA864;
-   font-size:60px;
+   font-size:50px;
    margin:0;
    vertical-align: middle;
  }
