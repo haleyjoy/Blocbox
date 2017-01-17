@@ -80,14 +80,9 @@ header p {
     }
 }
 .one-third {
-    padding-left: 80px;
+    padding-left: 10px;
 }
-.one-half img {
-    width: 100%;
-    padding-top: 25px;
-    padding-left: 25px;
-    padding-right:25px;
-}
+
 
 /* HEADER */
 header {
@@ -169,17 +164,27 @@ header .btn {
 }
 
 /* BENEFITS */
+.one-half img {
+    width: 100%;
+    padding-top: 25px;
+    padding-left: 5px;
+    padding-right:2px;
+}
  .benefits {
    text-align: center;
    display:block;
    position:relative;
+   background: url('images/benefitsbackground.png');
  }
  .benefits ul {
    margin: 0 auto;
-   padding: 1em;
+   padding: .5em;
  }
 .benefits p {
-
+    padding-left: 65px;
+    padding-top: 48px;
+    width:305px;
+    font-size: 13px;    
     color:#1F2952;
     
 }
@@ -187,17 +192,20 @@ header .btn {
    list-style-type: none;
     text-align: left;
    display: inline-block;
-     width:30%;
-     
+     width:40%;
  }
  .benefits i {
    color:#EFA864;
-   font-size:50px;
-   margin:0;
-   vertical-align: middle;
+   font-size:40px;
+     position: absolute; padding: 47px;
+     padding-left: 0px;
  }
  .benefits h2 {
    color:#1F2952;
+position: absolute;
+     width: 190px;
+     padding-left: 65px;
+
  }
 
 
@@ -291,6 +299,7 @@ header .btn {
  .testimonials {
    padding:3em 0;
    text-align: center;
+   background: url('images/benefitsbackground.png');
  }
  .testimonials h2 {
    color:#1F2952;
@@ -341,3 +350,66 @@ header .btn {
    margin-top: 30px;
  }
 
+/* FOOTER */
+footer {
+/* Rectangle: */
+background: #222C57;
+box-shadow: 0 -2px 9px 0 rgba(89,69,89,0.71);
+   color: #FFFFFF;
+   height: 77px;
+   position: relative;
+   overflow: hidden;
+   z-index: 0;
+ }
+ footer p, footer nav ul {
+   font-size:14px;
+   font-weight:100;
+   text-align: center;
+   margin: 30px auto 0;
+     width: 100%;
+         position: absolute;
+ }
+ footer nav ul li {
+   list-style-type: none;
+   display: inline;
+ }
+ footer nav ul li a {
+   color:#C0C9F3;
+   text-decoration: none;
+  
+ }
+.copyright-block {
+    color: #C0C9F3;
+    position: absolute;
+}
+ footer .logo{
+   padding: 0em 0em;
+   margin: 0 auto;
+   display: block;
+   position: absolute;
+   width: 45px;
+   float: right;
+   }
+ }
+@media (min-width: 992px){
+   footer{
+background: #222C57;
+box-shadow: 0 -2px 9px 0 rgba(89,69,89,0.71);
+   color: #FFFFFF;
+   position: relative;
+   overflow: hidden;
+   z-index: 0;
+   height: 77px;
+   }
+   footer p, footer nav ul{
+     padding: 2em 0;
+     text-align: left; 
+   }
+   footer .logo{
+    padding: 10px;
+   }
+ }
+
+/*
+
+ }*/
