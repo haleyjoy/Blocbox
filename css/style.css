@@ -166,7 +166,8 @@ header .btn {
    text-align: center;
    display:block;
    position:relative;
-   background: url(images/benefitsbackground2.png);
+   background-image: url("images/benefitsbackground2.png");
+   background-color: #ffffff;
  }
  .benefits ul {
    margin: 0 auto;
@@ -288,7 +289,8 @@ position: absolute;
  .testimonials {
    padding:3em 0;
    text-align: center;
-   background: url(images/benefitsbackground2.png);
+   background-image: url("images/benefitsbackground2.png");
+   background-color: #ffffff;
  }
  .testimonials h2 {
    color:#1F2952;
