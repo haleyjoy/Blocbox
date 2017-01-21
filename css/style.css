@@ -10,7 +10,6 @@ html, body{
  }*/
 
 
-
  h2 {
    font-size:28px;
    font-weight: normal;
@@ -25,7 +24,6 @@ html, body{
 header p {
     color: #FFFFFF;
 }
-
 /* GRID */
  .container {
    margin-right: auto;
@@ -50,11 +48,11 @@ header p {
    margin:0 2% 20px;
  }
 .one-third-pricing {
-   width:29.3%;
+   width:27%;
    float:left;
    position:relative;
    min-height: 1px;
-   margin:0 2% 7px;
+   margin:0 2.6% 7px;
 }
 @media (min-width: 768px) {
     .container { 750px;
@@ -68,22 +66,17 @@ header p {
         width: 46%;
     }
     .one-third {
-        width: 29.33333%;
+        width: 29%;
     }
     .one-fourth {
         width: 21%;
     }
-    @media (min-width: 1200px) {
+@media (min-width: 1200px) {
         .container {
             width:1170px;
         }
     }
 }
-.one-third {
-    padding-left: 10px;
-}
-
-
 /* HEADER */
 header {
     color:#FFFFFF;
@@ -162,7 +155,6 @@ header .btn {
     width: 50%;
     margin: 0 auto;
 }
-
 /* BENEFITS */
 .one-half img {
     width: 100%;
@@ -174,7 +166,7 @@ header .btn {
    text-align: center;
    display:block;
    position:relative;
-   background: url('images/benefitsbackground.png');
+   background: url(images/benefitsbackground.png);
  }
  .benefits ul {
    margin: 0 auto;
@@ -207,8 +199,6 @@ position: absolute;
      padding-left: 65px;
 
  }
-
-
  /* PRICING */
  .pricing {
    /* Pricing: */
@@ -294,12 +284,11 @@ position: absolute;
    color: #B0B9E3;
    line-height: 15px;
  }
-
  /* TESTIMONIALS */
  .testimonials {
    padding:3em 0;
    text-align: center;
-   background: url('images/benefitsbackground.png');
+   background: url(images/benefitsbackground.png);
  }
  .testimonials h2 {
    color:#1F2952;
@@ -349,7 +338,6 @@ position: absolute;
    font-size:13px;
    margin-top: 30px;
  }
-
 /* FOOTER */
 footer {
 /* Rectangle: */
@@ -362,12 +350,10 @@ box-shadow: 0 -2px 9px 0 rgba(89,69,89,0.71);
    z-index: 0;
  }
  footer p, footer nav ul {
-   font-size:14px;
+   font-size:12px;
    font-weight:100;
-   text-align: center;
-   margin: 30px auto 0;
-     width: 100%;
-         position: absolute;
+   margin: 32px auto 0;
+   width: 100%;
  }
  footer nav ul li {
    list-style-type: none;
@@ -383,15 +369,14 @@ box-shadow: 0 -2px 9px 0 rgba(89,69,89,0.71);
     position: absolute;
 }
  footer .logo{
-   padding: 0em 0em;
-   margin: 0 auto;
    display: block;
-   position: absolute;
+   position: relative;
    width: 45px;
    float: right;
+     padding-top: 14px;
    }
  }
-@media (min-width: 992px){
+@media (min-width: 1170px){
    footer{
 background: #222C57;
 box-shadow: 0 -2px 9px 0 rgba(89,69,89,0.71);
@@ -402,11 +387,11 @@ box-shadow: 0 -2px 9px 0 rgba(89,69,89,0.71);
    height: 77px;
    }
    footer p, footer nav ul{
-     padding: 2em 0;
+     padding: 0em 0;
      text-align: left; 
    }
    footer .logo{
-    padding: 10px;
+    padding: 0px;
    }
  }
 
