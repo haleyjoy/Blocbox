@@ -165,17 +165,18 @@ header .btn {
  .benefits {
    text-align: center;
    display:block;
-   position:relative;
-   background-image: url("images/benefitsbackground2.png");
+   background-image: url("Blocbox/blob/gh-pages/images/benefitsbackground2.png");
  }
  .benefits ul {
    margin: 0 auto;
    padding: .5em;
+
  }
 .benefits p {
     padding-left: 65px;
     padding-top: 48px;
-    width:305px;
+    position: absolute;
+    width: 80%;
     font-size: 13px;    
     color:#1F2952;
     
@@ -183,7 +184,8 @@ header .btn {
  .benefits ul li {
    list-style-type: none;
     text-align: left;
-   display: inline-block;
+padding-top: 45px;
+     padding-bottom: 65px;
      width:40%;
  }
  .benefits i {
@@ -288,7 +290,7 @@ position: absolute;
  .testimonials {
    padding:3em 0;
    text-align: center;
-   background-image: url("images/benefitsbackground2.png");
+   background-image: url("Blocbox/blob/gh-pages/images/benefitsbackground2.png");
 
  }
  .testimonials h2 {
